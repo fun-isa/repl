@@ -1,0 +1,14 @@
+Name:           lam-repl
+Version:        0.2
+Cabal-Version:  >= 1.2
+License:        BSD3
+Author:         caram
+Build-Type:     Simple
+  
+Executable iwu
+  Main-Is:        Main.hs
+  Other-modules:  LamToken,LamParser, Lam, Frontend, Backend, Bracket, Pattern
+  Hs-Source-Dirs: src
+  Build-Depends:  base >= 4 ,array , split, text
+  GHC-Options:    
+
