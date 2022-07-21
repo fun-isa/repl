@@ -1,3 +1,18 @@
+{-
+//// THE SUPREME WU COMPILER 
+//// VERSION 2.0  
+//// AUTHOR: cecaccetti at sjtu edu cn
+//// BATC
+//// (C)2022 SHANGHAI JIAOTONG UNIVERSITY 
+-}
+
+
+{-HERE BE DRAGONS
+这里有龙
+PROCEED WITH CAUTION 
+谨慎行事!!
+-}
+
 module FunISA where
 
 
