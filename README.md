@@ -54,7 +54,9 @@ To quit, type :q
 A tutorial presentation of the compiler, describing the process of converting lambda terms to structured combinators is being prepared and will soon be available at the project [wiki](http://wiki.fun-arch.org).
 
 
+## Contribute
 
+For any questions, suggestions, or just to talk, email join@fun-arch.org. 
 
    
 
