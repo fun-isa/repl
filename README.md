@@ -39,14 +39,14 @@ Now, a more complex function:
    
 In this case, the compiler has lifted the internal lambda abstraction `(\h t -> f h (foldr f z t))` to an auxiliary function `foldr_r`. Nested lambdas are useful on programs at a high-level language, but complicate the compilation process (especially when using a variable abstraction algorithm). Lambda-lifitng solves this problem, separating nested lambdas into standalone functions. 
 
-Type :env to check the list of functions defined in this session.
+Type `:env` to check the list of functions defined in this session.
   
    ```
    wu> :env
    [succ = +1 , flip = C3T2[0,2,1], foldr = C4T14[3,2,0,1,2](foldr_r), foldr_r = C5T40[1,3,0,1,2,4](foldr) ]  
    ```
 
-To quit, type :q
+To quit, type `:q`
 
 
 ## Check the wiki
