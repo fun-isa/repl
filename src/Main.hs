@@ -7,14 +7,6 @@
 -}
 
 
-{-HERE BE DRAGONS
-这里有龙
-
-PROCEED WITH CAUTION 
-谨慎行事!!
-
--}
-
 
 import qualified LamParser
 import Control.Monad (unless) 
