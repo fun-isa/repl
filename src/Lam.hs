@@ -80,13 +80,3 @@ ppExp (Sym s) = s
 ppExp (Num n) = show n
 ppExp (C t a l) = "C" ++ (show a) ++ (show t) ++ (show (map (\x -> x - 1)l))
 ppExp e = error (show e)
-
-
-
-
-
-
-
-
-
-
