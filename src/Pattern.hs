@@ -7,16 +7,6 @@
 -}
 
 
-{-HERE BE DRAGONS
-这里有龙
-
-THERE'S A LOT OF UNDOCUMENTED USEFUL CODE HERE
-AND ALSO A LOT OF USELESS CODE
-PROCEED WITH CAUTION 
-谨慎行事!!
-
--}
-
 module Pattern where
 
 data Type = Tx | T0 | T1 | T2 | T3 | T4 | T5 | T6 | T7 
