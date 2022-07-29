@@ -252,24 +252,3 @@ unflatten e = e
 mkAp :: Exp -> [Exp] -> Exp
 mkAp e [] = e 
 mkAp e (x:xs) = mkAp (App e x) xs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
